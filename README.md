@@ -3,6 +3,9 @@
 This project demonstrates the use of dynamic CSS preprocessors, specifically LESS and SASS, within a simple web development environment. The aim is to compare the capabilities, syntax, and performance of these preprocessors and understand when to use each one.
 
 ## Table of Contents
+ <details>
+  <summary><strong>Click to read more</strong></summary>
+
  1.	Introduction
  2.	Languages and Tools Used
  3.	Installation
@@ -17,6 +20,8 @@ This project demonstrates the use of dynamic CSS preprocessors, specifically LES
  12. Conclusion: When to Choose LESS or SASS
  13. Running the Project
 
+</details>
+
 ## Introduction
 
 LESS and SASS are CSS preprocessors that add functionality such as variables, mixins, functions, and nested rules to regular CSS. They allow developers to write more maintainable and DRY (Don’t Repeat Yourself) code.
@@ -30,6 +35,8 @@ Languages and Tools Used
 •	HTML/CSS: To test and display compiled styles
 
 ## Installation
+<details>
+  <summary><strong>Click to read more</strong></summary>
 
 ### Setting Up LESS
 
@@ -67,9 +74,11 @@ Languages and Tools Used
  ```bash
      npm run build-sass
 ```       
-
+</details>
 
 ### Comparison: LESS vs. SASS
+<details>
+  <summary><strong>Click to read more</strong></summary>
 
 Syntax Differences
 • LESS: Uses @ for variables.
@@ -160,7 +169,11 @@ LESS: Supports basic nesting.
     width: 100px;
     }
 ```
+</details>
+
 ### Performance and Debugging
+<details>
+  <summary><strong>Click to read more</strong></summary>
 
 #### Performance
 
@@ -171,6 +184,7 @@ LESS: Supports basic nesting.
 
 •	LESS: Error messages can be difficult to understand, making debugging harder.
 •	SASS: Provides clearer error messages and debugging options.
+</details>
 
 ### Conclusion: When to Choose LESS or SASS
 
@@ -180,13 +194,19 @@ LESS: Supports basic nesting.
 In conclusion, while LESS is simpler and may be preferable for small-scale projects, SASS provides a richer set of features that make it more suitable for larger applications where maintainability and advanced styling capabilities are essential.
 
 ## Running the Project
- ```bash
  1.	Clone the repository:
+ ```bash
  git clone https://github.com/EPetrineLynghaug/Less-demo
+ ```
  2.	Install dependencies:
+ ```bash
  npm install
- 3.	Build CSS with LESS:   
+ ```
+ 3.	Build CSS with LESS:  
+ ```bash 
  npm run build-css
+ ```
  4.	Build CSS with SASS:
+ ```bash
  npm run build-sass
 ```
