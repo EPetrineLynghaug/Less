@@ -180,13 +180,13 @@ LESS: Supports basic nesting.
 In conclusion, while LESS is simpler and may be preferable for small-scale projects, SASS provides a richer set of features that make it more suitable for larger applications where maintainability and advanced styling capabilities are essential.
 
 ## Running the Project
-```bash
-	1.	Clone the repository:
-    git clone https://github.com/EPetrineLynghaug/personalportfolio.git
-    2.	Install dependencies:
-    npm install
-     	3.	Build CSS with LESS:   
-        npm run build-css
-        	4.	Build CSS with SASS:
-            npm run build-sass
+ ```bash
+ 1.	Clone the repository:
+ git clone https://github.com/EPetrineLynghaug/Less-demo
+ 2.	Install dependencies:
+ npm install
+ 3.	Build CSS with LESS:   
+ npm run build-css
+ 4.	Build CSS with SASS:
+ npm run build-sass
 ```
